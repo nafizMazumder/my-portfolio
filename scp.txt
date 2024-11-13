@@ -1,0 +1,1 @@
+scp -r * mazumder@timberlea.cs.dal.ca:~/my-portfolio

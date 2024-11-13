@@ -1,0 +1,109 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #003459;
+}
+
+/* Header styles */
+header {
+    background: #00171f;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: #00a8e8;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00a8e8;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styles */
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #00a8e8;
+    margin-bottom: 10px;
+}
+
+p a {
+    text-decoration: none;
+    color: #003459;
+}
+
+p a:hover {
+    color: #00a8e8;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #00171f;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #00a8e8;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #00171f;
+    color: #ffffff;
+    margin-top: 20px;
+}
